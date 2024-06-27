@@ -472,6 +472,9 @@ img {
     h5 {
         font-size: 22px;
     }
+    p {
+        font-size: 15px;
+    }
 
     .fs-16 {
         font-size: 15px !important;
@@ -492,7 +495,9 @@ img {
     .navbar-toggler:focus {
         box-shadow: none;
     }
-
+    .simple-text {
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 767.97px) {
@@ -501,7 +506,7 @@ img {
     }
 
     h2 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     h3 {
@@ -544,6 +549,10 @@ img {
     .action-button {
         text-align: center;
     }
+    
+    .tag-button {
+        font-size: 12px;
+    }
 
 }
 
@@ -557,7 +566,7 @@ img {
     }
 
     h2 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     h3 {
@@ -578,7 +587,7 @@ img {
 
 
     .fs-18 {
-        font-size: 17px;
+        font-size: 16px !important;
     }
 
     .fs-16 {
@@ -605,16 +614,18 @@ img {
     .title {
         flex-wrap: wrap;
     }
+
+    .simple-text {
+        font-size: 12px;
+    }
+
+    
 }
 
 @media screen and (max-width: 375.97px) {
 
     h1 {
         font-size: 30px;
-    }
-
-    h2 {
-        font-size: 25px;
     }
 
     h5 {
