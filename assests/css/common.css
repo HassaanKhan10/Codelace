@@ -286,11 +286,6 @@ a.nav-link:hover::after {
     gap: 12px;
 }
 
-.flex-title {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
 
 .flex-title .simple-text{
     padding-left: 0; 
