@@ -287,12 +287,12 @@ a.nav-link:hover::after {
 }
 
 
-.flex-title .simple-text{
-    padding-left: 0; 
+.flex-title .simple-text {
+    padding-left: 0;
 }
 
 .flex-title .simple-text::before {
-    content: none; 
+    content: none;
 }
 
 
@@ -328,7 +328,7 @@ a.nav-link:hover::after {
     color: #9B51E0;
 }
 
-.text-purple{
+.text-purple {
     color: #BC00DB;
 }
 
@@ -426,7 +426,7 @@ button {
     font-size: 16px;
 }
 
-img{
+img {
     width: auto;
     height: auto;
     max-width: 100%;
@@ -589,18 +589,21 @@ img{
         padding-top: 50px;
     }
 
-    .ai-btn{
+    .ai-btn {
         font-size: 12px;
     }
 
-    .questions{
+    .questions {
         text-align: center;
     }
 
     .tags-section {
-        flex-direction: column;}
-        .title {
-            flex-wrap: wrap;}
+        flex-direction: column;
+    }
+
+    .title {
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 375.97px) {
@@ -624,7 +627,8 @@ img{
     .fs-16 {
         font-size: 15px !important;
     }
-    .ai-btn{
+
+    .ai-btn {
         font-size: 10px;
     }
 
