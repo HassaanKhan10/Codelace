@@ -207,7 +207,7 @@
     display: inline-flex;
     align-items: center;
     gap: 12px;
-    font-size: 16px;
+    font-size: 14px;
     padding: 8px 16px 8px 16px;
     border-radius: 0px 12px 0px 0px !important;
     background: linear-gradient(90deg, rgba(175, 4, 255, 0.2) 0%, rgba(255, 88, 248, 0.2) 48%, rgba(219, 0, 255, 0.2) 97.5%);
@@ -325,6 +325,10 @@ a.nav-link:hover::after {
     color: #9B51E0;
 }
 
+.text-purple{
+    color: #BC00DB;
+}
+
 .fs-16 {
     font-size: 16px !important;
 }
@@ -363,7 +367,6 @@ h1 {
 }
 
 h2 {
-    font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     line-height: 29.05px;
@@ -584,7 +587,7 @@ img{
     }
 
     .ai-btn{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .questions{
@@ -619,7 +622,7 @@ img{
         font-size: 15px !important;
     }
     .ai-btn{
-        font-size: 12px;
+        font-size: 10px;
     }
 
 }
