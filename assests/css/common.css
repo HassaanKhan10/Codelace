@@ -292,6 +292,14 @@ a.nav-link:hover::after {
     gap: 8px;
 }
 
+.flex-title .simple-text{
+    padding-left: 0; 
+}
+
+.flex-title .simple-text::before {
+    content: none; 
+}
+
 
 .pt-30 {
     padding-top: 30px;
