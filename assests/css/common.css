@@ -116,27 +116,43 @@ a {
 }
 
 .color-blue {
-    color: #0019FC;
+    color: #0019FC !important;
+}
+
+.color-primary{
+    color: #0066FF !important;
 }
 
 .color-secondary {
-    color: #2F80ED;
+    color: #2F80ED !important;
+}
+
+.color-gray{
+    color: #4F4F4F;
+}
+
+.color-lightblack{
+     color: #333333;
+}
+
+.color-red {
+    color: #E11125 !important;
 }
 
 .color-green {
-    color: #00A045;
+    color: #00A045 !important;
 }
 
 .color-yellow {
-    color: #E0A900;
+    color: #E0A900 !important;
 }
 
 .color-purple {
-    color: #9B51E0;
+    color: #9B51E0 !important;
 }
 
 .text-purple {
-    color: #BC00DB;
+    color: #BC00DB !important;
 }
 
 .fs-12 {
@@ -160,7 +176,9 @@ a {
 }
 
 button {
-    font-size: 16px;
+    background: none;
+    border: none;
+    padding: 0;
 }
 
 .btn {
@@ -272,11 +290,10 @@ button {
     color: #4C64FF;
 }
 
-.action-button p {
-    font-size: 12px;
-    font-weight: 400;
+.status-text {
     line-height: 14.52px;
     margin-top: 12px;
+    color: #4F4F4F;
 }
 
 
@@ -310,6 +327,11 @@ button {
     transform: translateY(-50%);
 }
 
+.customize-btn .simple-text::before{
+    width: 4px !important;
+    height: 4px !important;
+}
+
 .inner-content .simple-text:first-child::before,
 .customize-btn .simple-text:first-child::before {
     display: none;
@@ -328,6 +350,7 @@ button {
 }
 
 .customize-btn .simple-text{
+    color: #0066FF;
     line-height: 15.73px;
 }
 
