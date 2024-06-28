@@ -139,20 +139,24 @@ a {
     color: #BC00DB;
 }
 
-.fs-16 {
-    font-size: 16px !important;
+.fs-12 {
+    font-size: 12px !important;
 }
 
-.fs-18 {
-    font-size: 18px !important;
+.fs-13 {
+    font-size: 13px !important;
 }
 
 .fs-14 {
     font-size: 14px !important;
 }
 
-.fs-12 {
-    font-size: 12px;
+.fs-16 {
+    font-size: 16px !important;
+}
+
+.fs-18 {
+    font-size: 18px !important;
 }
 
 button {
@@ -318,16 +322,18 @@ button {
 }
 
 .inner-content .simple-text,
-.customize-btn .simple-text {
-    padding-left: 16px;
-    line-height: 16.94px;
-    position: relative;
+.popular-tags .simple-text {
     color: #828282;
+    line-height: 16.94px;
+}
+
+.customize-btn .simple-text{
+    line-height: 15.73px;
 }
 
 .inner-content .simple-text:first-child,
 .customize-btn .simple-text:first-child {
-    padding-left: 0;
+    padding-left: 0 !important;
 }
 
 
