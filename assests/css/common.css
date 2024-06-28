@@ -317,16 +317,12 @@ button {
     gap: 16px;
 }
 
-
-.simple-text {
-    position: relative;
-    color: #828282;
-}
-
 .inner-content .simple-text,
 .customize-btn .simple-text {
     padding-left: 16px;
     line-height: 16.94px;
+    position: relative;
+    color: #828282;
 }
 
 .inner-content .simple-text:first-child,
