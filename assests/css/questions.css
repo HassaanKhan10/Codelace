@@ -55,3 +55,9 @@ pre code {
 .code-box::-webkit-scrollbar-thumb:hover {
     background-color: #555;
 }
+
+
+.border-y{
+    border-top: 1px solid #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
+}

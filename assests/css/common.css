@@ -293,7 +293,8 @@ button {
     box-shadow: 0px 4px 12px 0px #00000029;
 }
 
-.inner-content .simple-text::before {
+.inner-content .simple-text::before,
+.customize-btn .simple-text::before {
     content: '';
     position: absolute;
     left: 0;
@@ -305,7 +306,8 @@ button {
     transform: translateY(-50%);
 }
 
-.inner-content .simple-text:first-child::before {
+.inner-content .simple-text:first-child::before,
+.customize-btn .simple-text:first-child::before {
     display: none;
 }
 
@@ -321,11 +323,14 @@ button {
     color: #828282;
 }
 
-.inner-content .simple-text {
+.inner-content .simple-text,
+.customize-btn .simple-text {
     padding-left: 16px;
+    line-height: 16.94px;
 }
 
-.inner-content .simple-text:first-child {
+.inner-content .simple-text:first-child,
+.customize-btn .simple-text:first-child {
     padding-left: 0;
 }
 
