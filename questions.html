@@ -15,7 +15,7 @@
 <body>
 
     <!-- navbar section start -->
-    <div class="container questions-section">
+    <div class="container border-0 questions-section">
         <nav class="navbar navbar-expand-lg ">
             <a class="navbar-brand me-0" href="index.html">
                 <img src="/assests/images/logo.svg" alt="" />
@@ -94,8 +94,10 @@
                     </div>
 
                     <div class="tags mt-0">
-                        <p class="status-text mt-0 fs-12 fw-normal">Asked: <span class="color-lightblack">Today</span></p>
-                        <p class="status-text mt-0 fs-12 fw-normal">Modified: <span class="color-lightblack">Today</span></p>
+                        <p class="status-text mt-0 fs-12 fw-normal">Asked: <span class="color-lightblack">Today</span>
+                        </p>
+                        <p class="status-text mt-0 fs-12 fw-normal">Modified: <span
+                                class="color-lightblack">Today</span></p>
                         <p class="status-text mt-0 fs-12 fw-normal">Views <span class="color-lightblack">2k</span></p>
                     </div>
                 </div>
@@ -103,24 +105,214 @@
                 <div class="tags-section border-y border-top-0 justify-content-between py-3">
                     <div class="customize-btn tags mt-0">
                         <button class="simple-text fs-13 fw-normal position-relative ps-3">Edit question</button>
-                        <button class="simple-text color-red fs-13 fw-normal position-relative ps-3">Delete question</button>
+                        <button class="simple-text color-red fs-13 fw-normal position-relative ps-3">Delete
+                            question</button>
                     </div>
                 </div>
 
                 <div class="tags-section border-y border-top-0 justify-content-between py-3">
                     <div class="customize-btn tags mt-0">
-                        <button class="simple-text d-flex align-items-center gap-1 fs-13 fw-normal position-relative ps-3"><img src="assests/images/answer.svg" alt="">Answer question</button>
-                        <button class="simple-text d-flex align-items-center gap-1 fs-13 fw-normal position-relative ps-3"><img src="assests/images/lace.svg" alt="">Lace this</button>
-                        <button class="simple-text d-flex align-items-center gap-1 fs-13 fw-normal position-relative ps-3"><img src="assests/images/share.svg" alt="">Share</button>
+                        <button
+                            class="simple-text d-flex align-items-center gap-1 fs-13 fw-normal position-relative ps-3"><img
+                                src="assests/images/answer.svg" alt="">Answer question</button>
+                        <button
+                            class="simple-text d-flex align-items-center gap-1 fs-13 fw-normal position-relative ps-3"><img
+                                src="assests/images/lace.svg" alt="">Lace this</button>
+                        <button
+                            class="simple-text d-flex align-items-center gap-1 fs-13 fw-normal position-relative ps-3"><img
+                                src="assests/images/share.svg" alt="">Share</button>
                     </div>
                 </div>
+
             </div>
         </div>
 
 
-    </div>
-    </div>
 
+
+
+        <!-- Answer Section -->
+
+        <div class="row justify-content-center hero-section ">
+            <div class="col-8 px-3">
+                <h2 class="fw-bold">Answer</h2>
+                <p class="fs-14 fw-normal mt-4">When i insert table in html message, in gmail it looks like meh... enter
+                    image description here but, in html that looks good: enter image description here code: When i
+                    insert table in html message, in gmail it looks like meh... enter image description here but, in
+                    html that looks good: enter image description here code:
+                </p>
+
+                <div class="inner-content bg-lightblue shadow-none rounded-2 mt-20 mb-0">
+                    <div class="inner-description">
+                        <img src="assests/images/thunder.svg" alt="">
+                        <div>
+                            <div
+                                class="title d-flex flex-wrap align-items-center justify-content-center justify-content-md-start gap-12">
+                                <p class="question-text fs-12">AI Bot</p>
+                            </div>
+                            <div class="tags mt-1">
+                                <p class="simple-text color-gray fs-12 fw-normal">Answered 2 hrs ago</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center gap-10">
+                        <button class="like-button d-flex align-items-center">
+                            <img src="assests/images/dislike.png" alt="">
+                            <span class="fs-12 color-lightblack fw-medium">0</span>
+                        </button>
+                        <button class="like-button d-flex align-items-center">
+                            <img src="assests/images/like.png" alt="">
+                            <span class="fs-12 color-lightblack fw-medium">3</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="tags-section border-y border-top-0 py-3">
+                    <div class="customize-btn tags mt-0">
+                        <button class="simple-text fs-13 fw-normal position-relative ps-3">Edit question</button>
+                        <button class="simple-text color-gray fs-13 fw-normal position-relative ps-3">Share</button>
+                    </div>
+                </div>
+
+
+                <button class="accepted-btn d-inline-flex align-items-center mt-4">
+                    <span><img src="assests/images/check.svg" alt=""></span>
+                    Accepted answer
+                </button>
+
+                <p class="fs-14 fw-normal mt-4">When i insert table in html message, in gmail it looks like meh... enter
+                    image description here but, in html that looks good: enter image description here code: When i
+                    insert table in html message, in gmail it looks like meh... enter image description here but, in
+                    html that looks good: enter image description here code:
+                </p>
+
+                <div class="code-box mt-3">
+                    <button class="copy-btn d-flex align-items-center gap-2" onclick="copyToClipboard()"> <span><img
+                                src="assests/images/copy-btn.svg" alt=""></span>Copy</button>
+                    <pre><code id="code-content" class="language-html"> .container {  max-width: 1000px !important; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px;  r }.container {  max-width: 1000px !important; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px;  r } .container {  max-width: 1000px !important; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px;  r }.container {  max-width: 1000px !important; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px;  r }.container {  max-width: 1000px !important; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px;  r }.container {  max-width: 1000px !important; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px;  r }.container {  max-width: 1000px !important; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px;  r }.container {  max-width: 1000px !important; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px;  r }.container {  max-width: 1000px !important; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px;  r }.container {  max-width: 1000px !important; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px;  r }.container {  max-width: 1000px !important; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px;  r }.container {  max-width: 1000px !important; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px;  r }.container {  max-width: 1000px !important; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px;  r }.container {  max-width: 1000px !important; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px;  r }.container {  max-width: 1000px !important; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px; } .btn { display: inline-flex; align-items: center; justify-content: center; line-height: 16.94px; padding: 10px 16px;  r }
+                    </code></pre>
+                </div>
+
+                <p class="fs-14 fw-normal mt-20">When i insert table in html message, in gmail it looks like meh...
+                    <a href="" class="color-blue fs-14 fw-normal">enter
+                        image description</a> here but, in html that looks good: enter image description here code:>
+                </p>
+
+                <div class="inner-content border-green bg-lightblue shadow-none rounded-2 mt-20 mb-0">
+                    <div class="inner-description">
+                        <img src="assests/images/profile.png" alt="">
+                        <div>
+                            <div
+                                class="title d-flex flex-wrap align-items-center justify-content-center justify-content-md-start gap-12">
+                                <p class="question-text fs-12">AI Bot</p>
+                            </div>
+                            <div class="tags mt-1">
+                                <p class="simple-text color-gray fs-12 fw-normal">Answered 2 hrs ago</p>
+                                <p class="simple-text color-gray fs-12 fw-normal">Accepted 1 hour ago</p>
+                                <p class="simple-text color-red fs-12 fw-normal">Reject answer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center gap-10">
+                        <button class="like-button d-flex align-items-center">
+                            <img src="assests/images/dislike.png" alt="">
+                            <span class="fs-12 color-lightblack fw-medium">4</span>
+                        </button>
+                        <button class="like-button d-flex align-items-center">
+                            <img src="assests/images/like.png" alt="">
+                            <span class="fs-12 color-lightblack fw-medium">8</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="tags-section pt-3">
+                    <div class="customize-btn tags mt-0">
+                        <button class="simple-text fs-13 fw-normal position-relative ps-3">Edit question</button>
+                        <button class="simple-text color-gray fs-13 fw-normal position-relative ps-3">Share</button>
+                    </div>
+                </div>
+
+                <div class="inner-content shadow-none d-block position-relative mt-1">
+
+                    <form>
+                        <input type="text" class="form-control fs-14 fw-normal" placeholder="Write your comment...">
+                    </form>
+
+                    <div class="text-center text-sm-start mt-10">
+                        <button class="btn btn-primary">
+                            <span>Add comment</span>
+                        </button>
+                    </div>
+
+                    <p class="fs-14 fw-normal mt-20">When i insert table in html message, in gmail it looks like meh...
+                        <a href="" class="color-blue fs-14 fw-normal">
+                        enter image description</a> here but, in html that looks good: enter image description here code:>
+                        When i insert table in html message, in gmail it looks like meh... enter image description here
+                        but, in html that looks good: enter image description here code:
+                    </p>
+                </div>
+
+                    <div class="inner-content bg-lightblue shadow-none rounded-2 mt-20 mb-0">
+                        <div class="inner-description">
+                            <img src="assests/images/profile.png" alt="">
+                            <div>
+                                <div
+                                    class="title d-flex flex-wrap align-items-center justify-content-center justify-content-md-start gap-12">
+                                    <p class="question-text fs-12">AI Bot</p>
+                                </div>
+                                <div class="tags mt-1">
+                                    <p class="simple-text color-gray fs-12 fw-normal">Answered 2 hrs ago</p>
+                                    <p class="simple-text color-gray fs-12 fw-normal">Accepted 1 hour ago</p>
+                                    <p class="simple-text color-red fs-12 fw-normal">Reject answer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center gap-10">
+                            <button class="like-button d-flex align-items-center">
+                                <img src="assests/images/dislike.png" alt="">
+                                <span class="fs-12 color-lightblack fw-medium">5</span>
+                            </button>
+                            <button class="like-button d-flex align-items-center">
+                                <img src="assests/images/like.png" alt="">
+                                <span class="fs-12 color-lightblack fw-medium">3</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="tags-section pt-3">
+                        <div class="customize-btn tags mt-0">
+                            <button class="simple-text fs-13 fw-normal position-relative ps-3">Add a comment</button>
+                            <button class="simple-text color-gray fs-13 fw-normal position-relative ps-3">Share</button>
+                            <button class="simple-text color-green fs-13 fw-normal position-relative ps-3">Accept answer</button>
+                        </div>
+                    </div>
+
+                    <div class="inner-content shadow-none d-block position-relative mt-1">
+
+                        <form>
+                            <input type="text" class="form-control fs-14 fw-normal" placeholder="Write your comment...">
+                        </form>
+
+                        <div class="text-center text-sm-start mt-10">
+                            <button class="btn btn-primary">
+                                <span>Add comment</span>
+                            </button>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
     </div>
 
 

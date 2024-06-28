@@ -102,24 +102,39 @@ a {
     text-decoration: none;
 }
 
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+.mt-10 {
+    margin-top: 10px !important;
+}
+
+.mt-20 {
+    margin-top: 20px !important;
+}
 
 .pt-30 {
-    padding-top: 30px;
+    padding-top: 30px !important;
 }
 
 .pt-80 {
-    padding-top: 80px;
+    padding-top: 80px !important;
 }
 
 .pt-100 {
-    padding-top: 100px;
+    padding-top: 100px !important;
 }
 
 .color-blue {
     color: #0019FC !important;
 }
 
-.color-primary{
+.color-primary {
     color: #0066FF !important;
 }
 
@@ -127,12 +142,12 @@ a {
     color: #2F80ED !important;
 }
 
-.color-gray{
-    color: #4F4F4F;
+.color-gray {
+    color: #4F4F4F !important;
 }
 
-.color-lightblack{
-     color: #333333;
+.color-lightblack {
+    color: #333333 !important;
 }
 
 .color-red {
@@ -155,8 +170,18 @@ a {
     color: #BC00DB !important;
 }
 
+.bg-lightblue {
+    background: #0066FF14;
+
+}
+
+.border-green{
+    border: 1px solid #00C113;
+}
+
 .fs-12 {
     font-size: 12px !important;
+    line-height: 14.52px !important;
 }
 
 .fs-13 {
@@ -290,12 +315,32 @@ button {
     color: #4C64FF;
 }
 
-.status-text {
+.like-button {
+    background: white;
+    padding: 6px 10px 6px 10px;
+    gap: 6px;
+    border-radius: 100px
+}
+
+.accepted-btn {
+    font-size: 12px;
+    font-weight: 700;
     line-height: 14.52px;
+    background: #00C113;
+    color: #fff;
+    padding: 4px 8px 4px 8px;
+    gap: 4px;
+    border-radius: 100px;
+}
+
+
+
+
+
+.status-text {
     margin-top: 12px;
     color: #4F4F4F;
 }
-
 
 .hero-section {
     padding-top: 38px;
@@ -327,7 +372,7 @@ button {
     transform: translateY(-50%);
 }
 
-.customize-btn .simple-text::before{
+.customize-btn .simple-text::before {
     width: 4px !important;
     height: 4px !important;
 }
@@ -349,7 +394,7 @@ button {
     line-height: 16.94px;
 }
 
-.customize-btn .simple-text{
+.customize-btn .simple-text {
     color: #0066FF;
     line-height: 15.73px;
 }
@@ -401,13 +446,11 @@ button {
     color: #575757;
 }
 
-.gap-12 {
-    gap: 12px;
-}
 
 
-.flex-title .simple-text {
-    padding-left: 0;
+.simple-text {
+    position: relative;
+    padding-left: 16px;
 }
 
 .flex-title .simple-text::before {
