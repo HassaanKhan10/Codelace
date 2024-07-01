@@ -6,10 +6,18 @@ body {
     color: #121212;
 }
 
-.container {
+.main-container.container {
     max-width: 1000px !important;
     border-left: 1px solid #EFEFEF;
     border-right: 1px solid #EFEFEF;
+}
+
+.community-container.container {
+    max-width: 1140px !important;
+}
+
+.nav-section{
+    border-bottom: 1px solid #EFEFEF
 }
 
 .navbar {
@@ -102,6 +110,10 @@ a {
     text-decoration: none;
 }
 
+.lh-15 {
+    line-height: 15.73px;
+}
+
 .gap-10 {
     gap: 10px;
 }
@@ -114,12 +126,24 @@ a {
     margin-top: 10px !important;
 }
 
+.mt-12 {
+    margin-top: 12px !important;
+}
+
+.mt-14 {
+    margin-top: 14px !important;
+}
+
 .mt-20 {
     margin-top: 20px !important;
 }
 
 .pt-30 {
     padding-top: 30px !important;
+}
+
+.pt-38 {
+    padding-top: 38px;
 }
 
 .pt-80 {
@@ -144,6 +168,10 @@ a {
 
 .color-gray {
     color: #4F4F4F !important;
+}
+
+.text-gray {
+    color: #828282;
 }
 
 .color-lightblack {
@@ -172,11 +200,20 @@ a {
 
 .bg-lightblue {
     background: #0066FF14;
-
 }
 
-.border-green{
+.border-green {
     border: 1px solid #00C113;
+}
+
+.border-y {
+    border-top: 1px solid #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.border-x{
+    border-left: 1px solid #EFEFEF;
+    border-right: 1px solid #EFEFEF;
 }
 
 .fs-12 {
@@ -334,16 +371,9 @@ button {
 }
 
 
-
-
-
 .status-text {
     margin-top: 12px;
     color: #4F4F4F;
-}
-
-.hero-section {
-    padding-top: 38px;
 }
 
 .questions-section .inner-content,
@@ -384,6 +414,7 @@ button {
 
 .inner-description {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 16px;
 }
@@ -420,6 +451,7 @@ button {
 .tags {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 8px;
     margin-top: 8px;
 }
@@ -470,6 +502,34 @@ button {
     padding-left: 0;
 }
 
+
+.comments p,
+.comments a,
+.comments span {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.read-more {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.73px;
+    padding: 8px 12px 8px 12px;
+}
+
+.profile-btn {
+    font-weight: 600;
+    line-height: 15.73px;
+    background: #0066FF14;
+    padding: 6px 10px 6px 10px;
+    border-radius: 6px 0px 0px 0px;
+    gap: 8px;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 650px) 1fr;
+}
 
 
 /* responsive */

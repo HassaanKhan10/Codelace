@@ -57,9 +57,16 @@ pre code {
 }
 
 
-.border-y{
-    border-top: 1px solid #EFEFEF;
-    border-bottom: 1px solid #EFEFEF;
+.profile-bio{
+font-size: 10px;
+font-weight: 400;
+line-height: 12.1px;
+
+}
+
+
+.profile{
+    border: 1px solid #EFEFEF
 }
 
 
