@@ -16,6 +16,7 @@
 <body>
 
     <!-- navbar section start -->
+     <section>
     <div class="community-container container questions-section w-100 border-0">
         <nav class="navbar navbar-expand-lg ">
             <a class="navbar-brand me-0" href="index.html">
@@ -139,9 +140,43 @@
                         <button
                             class="simple-text d-flex align-items-center gap-1 fs-13 fw-normal position-relative ps-3"><img
                                 src="assests/images/answer.svg" alt="">Answer question</button>
-                        <button
-                            class="simple-text d-flex align-items-center gap-1 fs-13 fw-normal position-relative ps-3"><img
-                                src="assests/images/lace.svg" alt="">Lace this</button>
+                                <button type="button" class="simple-text d-flex align-items-center gap-1 fs-13 fw-normal position-relative ps-3" data-toggle="modal" data-target="#laceModal">
+                                    Add to list
+                                  </button>
+                                  <!-- modal -->
+                                <div class="modal fade" id="laceModal" tabindex="-1" aria-labelledby="laceModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="laceModalLabel">Lace the Button</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                          <form id="laceForm">
+                                            <div class="form-group">
+                                              <label for="inputText">Input Text</label>
+                                              <input type="text" class="form-control" id="inputText" placeholder="Enter text">
+                                            </div>
+                                            <div class="form-group">
+                                              <label for="selectOption">Select Option</label>
+                                              <select class="form-control" id="selectOption">
+                                                <option>Option 1</option>
+                                                <option>Option 2</option>
+                                                <option>Option 3</option>
+                                              </select>
+                                            </div>
+                                          </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-primary" id="laceButton">Lace this button</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- modal -->
                         <button
                             class="simple-text d-flex align-items-center gap-1 fs-13 fw-normal position-relative ps-3"><img
                                 src="assests/images/share.svg" alt="">Share</button>
@@ -551,6 +586,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <script>
         function copyToClipboard() {
@@ -562,6 +600,13 @@
             });
         }
     </script>
+
+<script>
+    document.getElementById('laceButton').addEventListener('click', function() {
+      // Perform your action here
+      $('#laceModal').modal('hide');
+    });
+  </script>
 
 
 </body>

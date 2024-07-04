@@ -8,8 +8,6 @@ body {
 
 .main-container.container {
     max-width: 1000px !important;
-    border-left: 1px solid #EFEFEF;
-    border-right: 1px solid #EFEFEF;
 }
 
 .community-container.container {
@@ -45,6 +43,17 @@ a.nav-link:hover::after {
 
 }
 
+.image-wrapper-80{
+    width: 80px;
+    height: 80px;
+}
+
+.image-wrapper-76{
+    width: 76px;
+    height: 76px;
+}
+
+
 img {
     width: auto;
     height: auto;
@@ -62,7 +71,7 @@ h1 {
 h2 {
     font-size: 24px;
     font-weight: 500;
-    line-height: 29.05px;
+    line-height: 29px;
     color: #121212;
     margin-bottom: 0;
 }
@@ -111,7 +120,7 @@ a {
 }
 
 .lh-15 {
-    line-height: 15.73px;
+    line-height: 16px;
 }
 
 .gap-10 {
@@ -202,6 +211,15 @@ a {
     background: #0066FF14;
 }
 
+
+.radius-6{
+    border-radius: 6px;
+}
+
+.radius-100{
+    border-radius: 100px;
+}
+
 .border-green {
     border: 1px solid #00C113;
 }
@@ -218,7 +236,7 @@ a {
 
 .fs-12 {
     font-size: 12px !important;
-    line-height: 14.52px !important;
+    line-height: 15px !important;
 }
 
 .fs-13 {
@@ -247,7 +265,7 @@ button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    line-height: 16.94px;
+    line-height: 17px;
     padding: 10px 16px;
     border-radius: 12px;
     border: none;
@@ -262,6 +280,7 @@ button {
     color: #fff;
     font-weight: 600;
     transition: all 0.25s ease;
+    white-space: nowrap;
 }
 
 .btn-primary:hover {
@@ -275,7 +294,7 @@ button {
     font-family: "Caveat", cursive;
     font-size: 24px;
     color: #2F80ED;
-    line-height: 30.24px;
+    line-height: 30px;
     gap: 12px;
 }
 
@@ -284,9 +303,10 @@ button {
     align-items: center;
     gap: 10px;
     font-weight: 600;
-    line-height: 19.36px;
+    line-height: 20px;
     background: #0066FF14 !important;
     color: #0066FF !important;
+    white-space: nowrap;
 
 }
 
@@ -299,11 +319,12 @@ button {
     align-items: center;
     gap: 10px;
     font-weight: 600;
-    line-height: 19.36px;
+    line-height: 20px;
     color: #0066FF !important;
     border: 1px solid #0066FF !important;
     box-shadow: inset 0px 0px 4px 2px #0066FF52, 0px 2px 6px 0px #0066FF3D;
     background: #FFFFFF !important;
+    white-space: nowrap;
 }
 
 .btn .right-arrow {
@@ -331,7 +352,7 @@ button {
     background: #9292921A;
     font-size: 13px;
     font-weight: 400;
-    line-height: 15.73px;
+    line-height: 16px;
     padding: 6px 10px;
     border-radius: 100px;
     transition: all 0.25s ease;
@@ -344,7 +365,7 @@ button {
 
 .answer-button {
     font-weight: 400;
-    line-height: 19.36px;
+    line-height: 20px;
     color: #0019FC;
 }
 
@@ -362,7 +383,7 @@ button {
 .accepted-btn {
     font-size: 12px;
     font-weight: 700;
-    line-height: 14.52px;
+    line-height: 15px;
     background: #00C113;
     color: #fff;
     padding: 4px 8px 4px 8px;
@@ -414,7 +435,6 @@ button {
 
 .inner-description {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     gap: 16px;
 }
@@ -422,12 +442,12 @@ button {
 .inner-content .simple-text,
 .popular-tags .simple-text {
     color: #828282;
-    line-height: 16.94px;
+    line-height: 17px;
 }
 
 .customize-btn .simple-text {
     color: #0066FF;
-    line-height: 15.73px;
+    line-height: 16px;
 }
 
 .inner-content .simple-text:first-child,
@@ -438,7 +458,7 @@ button {
 
 .question-text {
     font-weight: 500;
-    line-height: 19.36px;
+    line-height: 20px;
     color: #121212;
 }
 
@@ -513,13 +533,13 @@ button {
 .read-more {
     font-size: 13px;
     font-weight: 400;
-    line-height: 15.73px;
+    line-height: 16px;
     padding: 8px 12px 8px 12px;
 }
 
 .profile-btn {
     font-weight: 600;
-    line-height: 15.73px;
+    line-height: 16px;
     background: #0066FF14;
     padding: 6px 10px 6px 10px;
     border-radius: 6px 0px 0px 0px;
